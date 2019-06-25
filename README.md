@@ -47,5 +47,5 @@ The prefix to insert before each command should be defined in the configuration 
 - Miscellaneous
 	- version: current deployment version and credits.
 	- getwumpobot: links it's invite link 
-	- gone **<Mention>**: **<Mention>** is gone :crab: (https://www.youtube.com/watch?v=LDU_Txk06tM)
+	- gone `<Mention>`: `<Mention>` is gone :crab: (https://www.youtube.com/watch?v=LDU_Txk06tM)
 
