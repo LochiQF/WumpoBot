@@ -1,4 +1,4 @@
-# WumpoBot <img src="assets/blackhackbadge.png" alt="Discord's hackaton-week badge" width="32" height="32"/>
+# WumpoBot <img src="assets/blackhackbadge.png" alt="Discord's hackaton-week badge" width="128" height="128"/>
 
 Bot that posts one out of many fan-arts/pictures/gifs regarding Discord's mascot, Wumpus.
 
