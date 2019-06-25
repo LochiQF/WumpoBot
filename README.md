@@ -6,7 +6,9 @@ Bot that posts one out of many fan-arts/pictures/gifs regarding Discord's mascot
 
 - https://discordapp.com/oauth2/authorize?client_id=593089411965517844&scope=bot&permissions=0
 
-## Run the bot locally (Modified version of the very clear and well written guide by Emzi0767, DSPlus dev)
+## Run the bot locally
+
+Modified version of the very clear and well written guide by Emzi0767, DSPlus dev
 
 ### Creating a Discord application
 1. Go to [my applications](https://discordapp.com/developers/applications/me) page on Discord Developer portal.
@@ -19,7 +21,7 @@ Bot that posts one out of many fan-arts/pictures/gifs regarding Discord's mascot
 
 ### Building the project and configuring the bot
 1. Download the project, open the solution and compile it.
-2. Go to `<project path>`, and copy the `example.config.json` file from the root to the build folder and rename it to `config.json`.
+2. Go to `<project path>`, and copy the `example.config.json` file from the root to the build folder and rename it to `config.json` instead.
 3. Open it with Notepad/Notepad++/Any notepad application. Replace the placeholder values (do not remove the quotes) with your actual application's token, command prefix and color value in HEX format. Save it.
 4. WumpoBot is now configured, but you need to invite it to a server first.
 
@@ -45,5 +47,5 @@ The prefix to insert before each command should be defined in the configuration 
 - Miscellaneous
 	- version: current deployment version and credits.
 	- getwumpobot: links it's invite link 
-	- gone <Mention>: <Mention> is gone :crab: (https://www.youtube.com/watch?v=LDU_Txk06tM)
+	- gone `<Mention>`: :crab: `<Mention>` is gone :crab: (https://www.youtube.com/watch?v=LDU_Txk06tM)
 
