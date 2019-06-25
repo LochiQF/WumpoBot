@@ -1,2 +1,2 @@
 # WumpoBot
-Bot and hackaton-week submission that randomly posts one of many Discord's mascot fan-arts/pictures.
+Bot that posts one out of many fan-arts/pictures/gifs regarding Discord's mascot, Wumpus.
