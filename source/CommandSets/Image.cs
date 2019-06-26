@@ -100,7 +100,7 @@ namespace WumpoBot.CommandSets
             DiscordEmbed embed = new DiscordEmbedBuilder
             {
                 Title = $":frame_photo: {selected.Title} :file_folder:",
-                Description = $"\n :mag_right: on {selected.Origin} \n :writing_hand: by **{selected.Artist}**",
+                Description = $":mag_right: on {selected.Origin} \n :writing_hand: by **{selected.Artist}**",
                 ImageUrl = wumpuses.Values.ElementAt(r),
                 Color = Bot.Configuration.Color
             };

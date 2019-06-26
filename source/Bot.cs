@@ -30,13 +30,13 @@ namespace WumpoBot
                 UseInternalLogHandler = true,
             });
 
-            Client.GuildAvailable += OnGuildAvaiable;
+            Client.GuildAvailable += OnGuildAvailable;
             Client.Ready += OnClientReady;
 
             CancellationToken = new CancellationTokenSource();
         }
 
-        private Task OnGuildAvaiable(GuildCreateEventArgs e)
+        private Task OnGuildAvailable(GuildCreateEventArgs e)
         {
             e.Client.DebugLogger.LogMessage(
                 LogLevel.Info,
@@ -66,12 +66,12 @@ namespace WumpoBot
                 shardedClient.GetCommandsNext().CommandErrored += OnCommandError;
             }
 
-            DiscordGame customGame = new DiscordGame()
+            DiscordGame presence = new DiscordGame()
             {
                 Name = "!wumpus | !getwumpobot",
             };
 
-            await Client.UpdateStatusAsync(customGame, UserStatus.Online, DateTime.Now);
+            await Client.UpdateStatusAsync(presence, UserStatus.Online, DateTime.Now);
 
             await Task.Yield();
         }
