@@ -8,7 +8,7 @@ Bot that posts one out of many fan-arts/pictures/gifs regarding Discord's mascot
 
 ## Run the bot locally
 
-Modified version of the very clear and well written guide by Emzi0767, DSPlus dev
+Modified version of the very clear and well written guide by Emzi0767, DSPlus dev.
 
 ### Creating a Discord application
 1. Go to [my applications](https://discordapp.com/developers/applications/me) page on Discord Developer portal.
@@ -35,29 +35,33 @@ Modified version of the very clear and well written guide by Emzi0767, DSPlus de
 1. Go back to VisualStudio and hit **Start**.
 2. Congratulations! Your bot is now running on a local instance on your machine!
 
-#### All future changes made to client IDs or tokens should be reflected likewise this guide
+#### All future changes made to client IDs or tokens should be reflected likewise this guide.
 
 ## Command Sets
 
 Currently the bot features only 2 command sets that fill it's purposes but many others can be freely added plugin-like.
-The prefix to insert before each command should be defined in the configuration file, default is "!".
+
+The prefix to insert before each command should be defined in the configuration file, default character is "!".
 
 - Image
 	- wumpus: posts a picture of Wumpus, random(ish) everytime.
 - Miscellaneous
 	- version: current deployment version and credits.
-	- getwumpobot: links it's invite link 
-	- gone `<Mention>`: `<Mention>` is gone :crab: (https://www.youtube.com/watch?v=LDU_Txk06tM)
+	- getwumpobot: links it's invite link. 
+	- gone `<Mention>`: `<Mention>` is gone :crab: [*related*](https://www.youtube.com/watch?v=LDU_Txk06tM).
 
 ## Contribute
 
 Currently the bot features **17** distinct items, you can submit new Wumpus' fan-arts/pictures/gifs through this [form](https://forms.gle/3QpkMpvJopbDZ5uE8).
+
 In the future there is going to be a list of every media used to avoid duplicates.
 
-The bot is and will continue to be free for everyone, if you'd like to donate to keep the bot running let me know.
+
+The bot is and will continue to be **free** for everyone, if you'd like to donate to keep the bot running let me know.
 	
 ## Credits
 
 In accordance, WumpoBot complies with the Digital Millennium Copyright Act (DCMA) and World Intellectual Property Organization (WIPO).
+
 If any featured fan-arts/pictures/gifs is wrongfully credited or you, as rightful owner, want it removed, let me know.
 
