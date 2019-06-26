@@ -49,9 +49,10 @@ The prefix to insert before each command should be defined in the configuration 
 
 - Image
 	- wumpus: posts a picture of Wumpus, random(ish) everytime
+	- submit: posts the google form to submit new medias
 - Miscellaneous
-	- version: current deployment version and credits
-	- getwumpobot: links it's invite link 
+	- version: posts the current deployment version and credits
+	- getwumpobot: posts a WumpoBot's invite link 
 	- gone `<Mention>`: `<Mention>` is gone :crab: ([*related*](https://www.youtube.com/watch?v=LDU_Txk06tM))
 
 ## Contribute
