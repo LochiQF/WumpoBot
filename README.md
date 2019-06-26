@@ -2,6 +2,10 @@
 
 Bot that posts one out of many fan-arts/pictures/gifs regarding Discord's mascot, Wumpus.
 
+## Status
+
+> IN-DEVELOPMENT: very frequent downtimes for testing purposes.
+
 ## Invite WumpoBot to your own server
 
 - https://discordapp.com/oauth2/authorize?client_id=593089411965517844&scope=bot&permissions=0
@@ -55,7 +59,6 @@ The prefix to insert before each command should be defined in the configuration 
 Currently the bot features **17** distinct items, you can submit new Wumpus' fan-arts/pictures/gifs through this [form](https://forms.gle/3QpkMpvJopbDZ5uE8).
 
 In the future there is going to be a list of every media used to avoid duplicates.
-
 
 The bot is and will continue to be **free** for everyone, if you'd like to donate to keep the bot running let me know.
 	

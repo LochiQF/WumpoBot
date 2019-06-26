@@ -68,7 +68,7 @@ namespace WumpoBot
 
             DiscordGame presence = new DiscordGame()
             {
-                Name = "!wumpus | !getwumpobot",
+                Name = $"{Configuration.prefix}wumpus | {Configuration.prefix}getwumpobot | {Configuration.prefix}submit",
             };
 
             await Client.UpdateStatusAsync(presence, UserStatus.Online, DateTime.Now);

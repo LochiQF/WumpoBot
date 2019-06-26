@@ -107,5 +107,11 @@ namespace WumpoBot.CommandSets
 
             await context.RespondAsync(embed: embed);
         }
+
+        [Command("submit")]
+        public async Task SubmitMedia(CommandContext context)
+        {
+            await context.RespondAsync($"To submit new fan-arts/pictures/gifs check out the google form. Thanks for contributing! (https://forms.gle/3QpkMpvJopbDZ5uE8)");
+        }
     }
 }

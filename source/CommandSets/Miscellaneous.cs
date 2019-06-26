@@ -9,7 +9,7 @@ namespace WumpoBot.CommandSets
         [Command("version")]
         public async Task Version(CommandContext context)
         {
-            await context.RespondAsync("WumpoBot v0.0.2, made by AttixQF#9866 (https://github.com/LochiQF/WumpoBot)");
+            await context.RespondAsync("WumpoBot v0.0.3, created by AttixQF#9866. (https://github.com/LochiQF/WumpoBot)");
         }
 
         [Command("getwumpobot")]
