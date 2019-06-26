@@ -44,11 +44,11 @@ Currently the bot features only 2 command sets that fill it's purposes but many 
 The prefix to insert before each command should be defined in the configuration file, default character is "!".
 
 - Image
-	- wumpus: posts a picture of Wumpus, random(ish) everytime.
+	- wumpus: posts a picture of Wumpus, random(ish) everytime
 - Miscellaneous
-	- version: current deployment version and credits.
-	- getwumpobot: links it's invite link. 
-	- gone `<Mention>`: `<Mention>` is gone :crab: [*related*](https://www.youtube.com/watch?v=LDU_Txk06tM).
+	- version: current deployment version and credits
+	- getwumpobot: links it's invite link 
+	- gone `<Mention>`: `<Mention>` is gone :crab: ([*related*](https://www.youtube.com/watch?v=LDU_Txk06tM))
 
 ## Contribute
 
