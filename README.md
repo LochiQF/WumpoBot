@@ -25,6 +25,7 @@ Modified version of the very clear and well written guide by Emzi0767, DSPlus de
 
 ### Building the project and configuring the bot
 1. Download the project, open the solution and compile it.
+   * In order to compile you will need to download the project's NuGet dependencies first. In VisualStudio press the tab control **Tools**, then **NuGet Package Manager** and finally it will appear a popup with **Restore**.
 2. Go to `<project path>`, and copy the `example.config.json` file from the root to the build folder and rename it to `config.json` instead.
 3. Open it with Notepad/Notepad++/Any notepad application. Replace the placeholder values (do not remove the quotes) with your actual application's token, command prefix and color value in HEX format. Save it.
 4. WumpoBot is now configured, but you need to invite it to a server first.
