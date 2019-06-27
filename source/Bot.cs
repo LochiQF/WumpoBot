@@ -55,7 +55,7 @@ namespace WumpoBot
                 {
                     CaseSensitive = false,
                     EnableDefaultHelp = true,
-                    EnableDms = true,
+                    EnableDms = false,
                     EnableMentionPrefix = false,
                     StringPrefix = Configuration.prefix,
                     IgnoreExtraArguments = true,

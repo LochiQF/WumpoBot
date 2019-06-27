@@ -97,10 +97,12 @@ namespace WumpoBot.CommandSets
 
             Source selected = wumpuses.Keys.ElementAt(r);
 
+            Uri uriOrigin = new Uri(selected.Origin);
+
             DiscordEmbed embed = new DiscordEmbedBuilder
             {
                 Title = $":frame_photo: {selected.Title} :file_folder:",
-                Description = $":mag_right: on {selected.Origin} \n :writing_hand: by **{selected.Artist}**",
+                Description = $":mag_right: on [{uriOrigin.Host}]({wumpuses.Values.ElementAt(r)}) \n :writing_hand: by **{selected.Artist}**",
                 ImageUrl = wumpuses.Values.ElementAt(r),
                 Color = Bot.Configuration.Color
             };
@@ -111,7 +113,14 @@ namespace WumpoBot.CommandSets
         [Command("submit")]
         public async Task SubmitMedia(CommandContext context)
         {
-            await context.RespondAsync($"To submit new fan-arts/pictures/gifs check out the google form. Thanks for contributing! (https://forms.gle/3QpkMpvJopbDZ5uE8)");
+            DiscordEmbed embed = new DiscordEmbedBuilder
+            {
+                Title = $":frame_photo: WumpoBot Submission :file_folder:",
+                Description = $"To submit new fan-arts/pictures/gifs check out the [google form](https://forms.gle/3QpkMpvJopbDZ5uE8). \n Thanks for contributing!",
+                Color = Bot.Configuration.Color
+            };
+
+            await context.RespondAsync(embed: embed);
         }
     }
 }

@@ -57,7 +57,7 @@ The prefix to insert before each command should be defined in the configuration 
 
 ## Contribute
 
-Currently the bot features **17** distinct items, you can submit new Wumpus' fan-arts/pictures/gifs through this [form](https://forms.gle/3QpkMpvJopbDZ5uE8).
+Currently the bot features **17** distinct items, you can submit new Wumpus' fan-arts/pictures/gifs through this [google form](https://forms.gle/3QpkMpvJopbDZ5uE8).
 
 In the future there is going to be a list of every media used to avoid duplicates.
 
