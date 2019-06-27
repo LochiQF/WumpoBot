@@ -4,7 +4,7 @@ Bot that posts one out of many fan-arts/pictures/gifs regarding Discord's mascot
 
 ## Status
 
-> IN-DEVELOPMENT: very frequent downtimes for testing purposes.
+> ONLINE: there might be short downtimes for maintenance or network issues.
 
 ## Invite WumpoBot to your own server
 
