@@ -6,9 +6,13 @@ Bot that posts one out of many fan-arts/pictures/gifs regarding Discord's mascot
 
 > ONLINE: there might be short downtimes for maintenance or network issues.
 
+[![Discord Bots](https://discordbots.org/api/widget/status/593089411965517844.svg)](https://discordbots.org/bot/593089411965517844)
+
 ## Invite WumpoBot to your own server
 
 - https://discordapp.com/oauth2/authorize?client_id=593089411965517844&scope=bot&permissions=0
+
+> alternatively through [discordbots.org](https://discordbots.org/bot/593089411965517844).
 
 ## Run the bot locally
 
