@@ -4,7 +4,7 @@ Bot that posts one out of many fan-arts/pictures/gifs regarding Discord's mascot
 
 ## Status
 
-> ONLINE: there might be short downtimes for maintenance or network issues.
+> OFFLINE: Project discontinued for the time being.
 
 [![Discord Bots](https://discordbots.org/api/widget/status/593089411965517844.svg?noavatar=true)](https://discordbots.org/bot/593089411965517844)
 
